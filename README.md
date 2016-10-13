@@ -9,7 +9,7 @@ Add the following to your composer.json
 ```js
 {
     "require": {
-        "FourDem/FourDem": "*"
+        "four-dem/four-dem": "*"
     }
 }
 ```
