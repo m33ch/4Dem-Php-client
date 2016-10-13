@@ -1,0 +1,27 @@
+{
+	"name": "FourDem/FourDem",
+	"version": "0.1.0",
+	"description": "Official FourDem API library client for PHP",
+	"homepage": "http://4dem.it",
+	"authors": [
+		{
+			"name": "Alessandro Rovito",
+			"email": "alessandro.rovito@gmail.com",
+			"homepage": "http://github.com/m33ch"
+		}
+	],
+	"keywords": ["coupon", "advision", "4dem", "api", "client", "library"],
+	"autoload": {
+		"psr-0": {
+			"FourDem\\": "lib/"
+		}
+	},
+	"require": {
+		"ext-json": "*",
+		"guzzle/guzzle": "3.7.*"
+	},
+	"support": {
+		"issues": "https://github.com/m33ch/alessandro-php/issues"
+	},
+	"license": "MIT"
+}
