@@ -25,5 +25,7 @@ class AuthHandler
         }
 
         $event['request']->setHeader('Authorization', sprintf('Bearer %s', $this->auth['http_header']));
+
+        return $event;
     }
 }
